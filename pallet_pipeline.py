@@ -4,7 +4,7 @@ pallet_pipeline.py — build DHL freight (pallet / EUROCONNECT) matrices.
 Kept separate from pipeline.py so the parcel logic is untouched. Reuses
 pipeline.py's Excel writer column conventions but adds the pallet-only cost
 columns (MOBILITY, TOLL, ADMIN, FACTORED RATE PALLET).
- 
+ Tests, Elke
 Cost stack (verified to the cent against ITFRDE_final_for_Fender_Pallets.xlsx):
  
     RATE_BASE = factored rate  (from the DHL factor file, already * FACTOR_DHL)
